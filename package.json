@@ -1,0 +1,29 @@
+{
+  "name": "video_show",
+  "version": "1.0.0",
+  "description": "A video search app using Youtube, using ajax.",
+  "main": "index.js",
+  "repository": "https://github.com/korenerok/video_show.git",
+  "author": "Marvin Bernal",
+  "license": "MIT",
+  "scripts": {
+    "serve": "live-server public",
+    "build": "webpack --watch",
+    "build-babel": "babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch"
+  },
+  "dependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-react": "^7.0.0",
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^8.0.5",
+    "live-server": "^1.2.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "webpack": "^4.30.0",
+    "youtube-search": "^1.1.4"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.0"
+  }
+}
