@@ -8,7 +8,7 @@ import YTSearch from 'youtube-search';
 const appRoot= document.getElementById('app');
 
 const options = {
-    key : 'AIzaSyDzKTY49xwdjw9jJCVrbltceYnZ08ahL0c',
+    key : '<input key here>',
     maxResults: 20
 };
 
